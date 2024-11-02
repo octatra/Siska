@@ -153,12 +153,12 @@
                             <span data-key="t-ecommerce">Pengajuan Lainnya </span>
                         </a>
                         <ul class="sub-menu" aria-expanded="false">
-                            {{-- <li><a href="{{ route('admin.pengajuan.ditolak') }}" key="t-products">Pengajuan
+                            <li><a href="{{ route('admin.pengajuan.ditolak') }}" key="t-products">Pengajuan
                                     Ditolak</a>
                             </li>
                             <li><a href="{{ route('admin.pengajuan.diterima') }}"
                                     data-key="t-product-detail">Pengajuan
-                                    Diterima</a></li> --}}
+                                    Diterima</a></li>
                         </ul>
                     </li>
                 @endif

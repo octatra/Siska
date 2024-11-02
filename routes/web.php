@@ -57,6 +57,9 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/admin/pengajuan/surat-rekomendasi', SuratRekomendasi::class)->name('admin.pengajuan.surat-rekomendasi');
         Route::get('/admin/pengajuan/dokumen-lainnya', DokumenLainnya::class)->name('admin.pengajuan.dokumen-lainnya');
 
+        Route::get('/admin/pengajuan/ditolak', PengajuanDitolak::class)->name('admin.pengajuan.ditolak');
+        Route::get('/admin/pengajuan/diterima', PengajuanDiterima::class)->name('admin.pengajuan.diterima');
+
         Route::get('/admin/form-survei/', FormSurvei::class)->name('admin.form-survei');
         Route::get('/admin/form-survei/create', CreateSurvei::class)->name('admin.form-survei.create');
         Route::get('/admin/form-survei/detail/{id}', DetailSurvei::class)->name('admin.form-survei.detail');
